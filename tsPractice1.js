@@ -97,13 +97,13 @@
 //         console.log(i);
 //     }
 // }
-var num = 8;
-if (num < 5) {
-    console.log(num - 1);
-}
-else if (num > 5) {
-    console.log(num + 1);
-}
-else {
-    console.log("equal to 5");
-}
+// let num:number=8
+// if(num<5){
+//     console.log(num-1);
+// }
+// else if(num>5){
+//     console.log(num + 1);
+// }
+// else{
+//     console.log("equal to 5");
+// }
