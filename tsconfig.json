@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "es2016",       // or "esnext"
+    "lib": ["es2016", "dom"], // add this line if not present
+    "module": "commonjs",
+    "strict": true
+  }
+}

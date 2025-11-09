@@ -1,3 +1,4 @@
+"use strict";
 // for(let i=1;i<=10;i++){
 //     console.log(i*i);
 // }
@@ -73,13 +74,13 @@
 // })
 // console.log("total marks ",totalMarks);
 // Given:
-var students = [
-    { name: "Ajay", score: 85 },
-    { name: "Dev", score: 92 },
-    { name: "Sam", score: 76 }
-];
-// 👉 Use forEach() to print:
-// "Ajay scored 85", "Dev scored 92", etc.
-students.forEach(function (value) {
-    console.log(value.name, "scored", value.score);
-});
+// let students: Array<{name:string,score:number}> = [
+//     { name: "Ajay", score: 85 },
+//     { name: "Dev", score: 92 },
+//     { name: "Sam", score: 76 }
+// ];
+// // 👉 Use forEach() to print:
+// // "Ajay scored 85", "Dev scored 92", etc.
+// students.forEach((value)=>{
+//     console.log(value.name, "scored", value.score);
+// })

@@ -1,3 +1,4 @@
+"use strict";
 // Given:
 // let numbers: Array<number> = [1, 2, 3, 4];
 // // 👉 Use map() to create a new array with each number doubled.
@@ -61,12 +62,12 @@
 // const res:Array<string>=marks.map((val)=>(val>=50?"Pass":"fail"))
 // console.log(res);
 // Given:
-var products = [
-    { name: "pen", price: 10 },
-    { name: "book", price: 50 },
-    { name: "bag", price: 300 }
-];
-// 👉 Use map() to return a new array of strings like:
-// ["pen - ₹10", "book - ₹50", "bag - ₹300"]
-var res = products.map(function (val) { return val.name + "-" + "$" + val.price; });
-console.log(res);
+// let products: Array<{ name: string, price: number }> = [
+//     { name: "pen", price: 10 },
+//     { name: "book", price: 50 },
+//     { name: "bag", price: 300 }
+// ];
+// // 👉 Use map() to return a new array of strings like:
+// // ["pen - ₹10", "book - ₹50", "bag - ₹300"]
+// const res:Array<string>=products.map((val)=>val.name + "-" + "$" + val.price)
+// console.log(res);

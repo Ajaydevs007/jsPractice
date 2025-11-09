@@ -1,3 +1,4 @@
+"use strict";
 // let grade: number = 1;
 // if (grade >= 90 && grade <= 100) {
 //   console.log("The grade is A+");

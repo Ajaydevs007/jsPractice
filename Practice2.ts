@@ -116,17 +116,17 @@
 
 
 // Given:
-let students: Array<{name:string,score:number}> = [
-    { name: "Ajay", score: 85 },
-    { name: "Dev", score: 92 },
-    { name: "Sam", score: 76 }
-];
-// 👉 Use forEach() to print:
-// "Ajay scored 85", "Dev scored 92", etc.
+// let students: Array<{name:string,score:number}> = [
+//     { name: "Ajay", score: 85 },
+//     { name: "Dev", score: 92 },
+//     { name: "Sam", score: 76 }
+// ];
+// // 👉 Use forEach() to print:
+// // "Ajay scored 85", "Dev scored 92", etc.
 
-students.forEach((value)=>{
-    console.log(value.name, "scored", value.score);
-})
+// students.forEach((value)=>{
+//     console.log(value.name, "scored", value.score);
+// })
 
 
 
