@@ -1,8 +1,31 @@
 {
   "compilerOptions": {
-    "target": "es2016",       // or "esnext"
-    "lib": ["es2016", "dom"], // add this line if not present
-    "module": "commonjs",
-    "strict": true
-  }
+    /* === Language and Environment === */
+    "target": "esnext",                    // Use latest JS features
+    "lib": ["esnext", "dom"],              // Include modern array & browser APIs
+
+    /* === Module System === */
+    "module": "commonjs",                  // For Node.js execution
+    "moduleResolution": "node",            // Resolve imports like Node.js
+
+    /* === Output === */
+    "outDir": "./dist",                    // Compiled JS files go here
+    "rootDir": "./",                       // Source files are in current folder
+
+    /* === Type Checking === */
+    "strict": true,                        // Enable all strict type checks
+    "noImplicitAny": false,                // Don’t force 'any' errors for practice
+    "skipLibCheck": true,                  // Skip type checking library files
+
+    /* === Project Behavior === */
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,               // Makes default imports work smoothly
+    "allowSyntheticDefaultImports": true,  // Allows using `import fs from 'fs'`
+    "resolveJsonModule": true,             // Enables importing .json files
+    "allowJs": true,                       // Allows mixing .js and .ts
+    "checkJs": false,                      // Don’t type-check JS files
+    "isolatedModules": true                // Better compatibility with ES modules
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }
